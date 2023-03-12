@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Circle-icons-calculator.svg/1200px-Circle-icons-calculator.svg.png"
+        type="icon/x-type">
+</head>
+
+<body>
+    <div id="main">
+        <div id="time">
+        </div>
+        <form name="calc">
+            <table>
+                <tr>
+                    <td colspan="4" id="screen">
+                        <input type="text" name="display" id="display" value="" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="(" class="btn"></td>
+                    <td><input type="button" value=")" class="btn"></td>
+
+                    <td><input type="button" value="/" class="btn" class="oprator"></td>
+                    <td>
+                        <button class="btn" class="oprator" id="sqrtBtn">&#8730;</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" class="btn"></td>
+                    <td><input type="button" value="2" class="btn"></td>
+                    <td><input type="button" value="3" class="btn"></td>
+                    <td><input type="button" value="+" class="btn" class="oprator"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" class="btn"></td>
+                    <td><input type="button" value="5" class="btn"></td>
+                    <td><input type="button" value="6" class="btn"></td>
+                    <td><input type="button" value="-" class="btn" class="oprator"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" class="btn"></td>
+                    <td><input type="button" value="8" class="btn"></td>
+                    <td><input type="button" value="9" class="btn"></td>
+                    <td><input type="button" value="*" class="btn" class="oprator"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="." class="btn"></td>
+                    <td><input type="button" value="0" class="btn"></td>
+                    <td><input type="button" value="C" id="clear"></td>
+                    <td><input type="button" value="=" id="showResult"></td>
+
+                </tr>
+            </table>
+    </div>
+    </form>
+    </div>
+
+</body>
+<script src="cal.js"></script>
+
+</html>

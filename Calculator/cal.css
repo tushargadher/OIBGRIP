@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+
+}
+
+body {
+    background-color: rgb(77, 138, 200);
+}
+
+#main {
+    z-index: 1;
+    display: flex;
+    position: relative;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table {
+
+    background-color: #EBF5FF;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 4px black;
+    padding: 3rem 0.6rem;
+}
+
+td {
+
+    border: none;
+    text-align: center;
+    height: 8vh;
+    width: 8vw;
+    font-size: 1.2rem;
+
+}
+
+
+/* screen css */
+#display {
+    height: 7rem;
+    width: 465px;
+    margin-bottom: 7px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background-color: #CCE5FF;
+    color: #163C5F;
+    box-sizing: border-box;
+}
+
+/* button css */
+input[type="button"] {
+    /* padding: 14px 30px; */
+    height: 60px;
+    width: 90px;
+    margin: 7px;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    background-color: #CCE5FF;
+    color: #163C5F;
+    border: none;
+    transition: all 0.2s;
+
+}
+
+button {
+    height: 60px;
+    width: 90px;
+    margin: 10px;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    background-color: #A2D0FA;
+    color: #163C5F;
+    border: none;
+    transition: all 0.2s;
+    margin: 7px;
+}
+
+input[value="*"],
+input[value="+"],
+input[value="-"],
+input[value="/"],
+input[value="("],
+input[value=")"] {
+    background-color: #8fc1ef;
+    margin: 7px;
+}
+
+input[value="C"],
+input[value="="] {
+    background-color: #4D8AC8;
+    color: white;
+    margin: 7px;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+    transform: translateY(3px);
+
+}
